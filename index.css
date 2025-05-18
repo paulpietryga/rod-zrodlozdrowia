@@ -92,12 +92,12 @@
 
 @media (max-width: 575px) {
    .u-section-1 {
-    min-height: 1034px;
+    min-height: 281px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 21px;
+    margin-bottom: 21px;
   }
 
   .u-section-1 .u-image-1 {
@@ -244,11 +244,12 @@
 
 @media (max-width: 575px) {
    .u-section-2 {
-    min-height: 863px;
+    min-height: 326px;
   }
 
   .u-section-2 .u-layout-wrap-1 {
-    margin-bottom: -84px;
+    margin-top: 1px;
+    margin-bottom: 13px;
   }
 
   .u-section-2 .u-layout-cell-1 {
