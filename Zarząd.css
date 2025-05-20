@@ -9,15 +9,15 @@
 }
 
 .u-section-1 .u-layout-cell-1 {
-  min-height: 824px;
+  min-height: 834px;
 }
 
 .u-section-1 .u-container-layout-1 {
-  padding: 30px;
+  padding: 28px 30px;
 }
 
 .u-section-1 .u-text-1 {
-  margin: 0;
+  margin: 3px 0 0;
 }
 
 .u-section-1 .u-text-2 {
@@ -38,13 +38,52 @@
   color: rgb(239, 206, 74) !important;
 }
 
+.u-section-1 .u-calendar-1 {
+  --radius: 10px;
+  box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.2);
+  margin-top: 31px;
+  margin-bottom: -1px;
+  --hours-top-spacing: 20px;
+  --num-padding-vertical: 15px;
+  --num-hover-color: #e9f2fa;
+  --num-text-hover-default-color: #111111;
+  --num-active-color: #e9f2fa;
+  --num-text-active-default-color: #111111;
+  --num-color: #f2f2f2;
+  --num-text-default-color: #111111;
+  --num-current-color: #fbeced;
+  --num-text-current-default-color: #111111;
+  --num-border-color: #ffffff;
+  --num-border-hover-color: #478ac9;
+  --num-border-active-color: #478ac9;
+  --num-border-current-color: #db545a;
+  --num-border-style: solid;
+  --num-border: 2px;
+  --num-border-radius: 4px;
+  --days-padding-vertical: 10px;
+  --days-font-size: 12px;
+  --days-text-transform: uppercase;
+  --year-month-padding-vertical: 10px;
+  --year-month-font-size: 24px;
+  --year-month-font-weight: 700;
+  --year-month-bold: bold;
+  --year-month-text-color: #425465;
+  padding: 30px;
+}
+
+.u-section-1 .u-calendar-time-slot-1 {
+  border-style: solid;
+  --radius: 4px;
+  padding: 8px 20px;
+}
+
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
     min-height: 311px;
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 679px;
+    min-height: 688px;
   }
 }
 

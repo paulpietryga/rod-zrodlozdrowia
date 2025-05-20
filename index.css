@@ -8,7 +8,7 @@
 }
 
 .u-section-1 .u-layout-cell-1 {
-  min-height: 159px;
+  min-height: 168px;
   --radius: 50px;
 }
 
@@ -39,7 +39,7 @@
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 131px;
+    min-height: 139px;
   }
 
   .u-section-1 .u-image-1 {
@@ -103,168 +103,193 @@
   .u-section-1 .u-image-1 {
     min-height: 142px;
   }
-} .u-section-2 {
-  min-height: 256px;
+}.u-section-2 .u-sheet-1 {
+  min-height: 36px;
 }
 
-.u-section-2 .u-layout-wrap-1 {
-  margin-top: 24px;
-  margin-bottom: 24px;
-}
-
-.u-section-2 .u-layout-cell-1 {
-  min-height: 238px;
-  --radius: 50px;
-}
-
-.u-section-2 .u-container-layout-1 {
-  padding: 30px;
-}
-
-.u-section-2 .u-text-1 {
-  margin: 0 35px 0 70px;
-}
-
-.u-section-2 .u-text-2 {
-  margin: 20px 70px 0 0;
-}
-
-.u-section-2 .u-image-1 {
-  min-height: 238px;
-  --radius: 50px;
-  background-position: 50% 50%;
-  background-repeat: no-repeat, no-repeat;
-  background-image: url('images/e583605a1bbdcd0f54e0af9ba2900a8e7f435d222c3b95d599eef76d01797f2ba6efab16fa32a8c577fb9803a6f19c6c357127f65323466b033fea_1280.jpg'), linear-gradient(to bottom, rgba(242, 242, 242, 1), rgba(242, 242, 242, 1));
-  background-size: cover, cover;
-}
-
-.u-section-2 .u-container-layout-2 {
-  padding: 30px;
+.u-section-2 .u-line-1 {
+  transform-origin: right center;
+  margin: 17px 0;
 }
 
 @media (max-width: 1199px) {
-   .u-section-2 {
-    min-height: 657px;
-  }
-
-  .u-section-2 .u-layout-wrap-1 {
-    margin-top: 22px;
-    margin-bottom: 21px;
-  }
-
-  .u-section-2 .u-layout-cell-1 {
-    min-height: 196px;
-  }
-
-  .u-section-2 .u-text-1 {
-    width: auto;
-    margin-top: 200px;
-    margin-right: auto;
-    margin-left: -10px;
-  }
-
-  .u-section-2 .u-text-2 {
-    width: auto;
-    margin-right: 48px;
-    margin-left: -10px;
-  }
-
-  .u-section-2 .u-image-1 {
-    min-height: 196px;
-  }
-}
-
-@media (max-width: 991px) {
-   .u-section-2 {
-    min-height: 566px;
-  }
-
-  .u-section-2 .u-layout-wrap-1 {
-    margin-top: 24px;
-    margin-bottom: 24px;
-  }
-
-  .u-section-2 .u-layout-cell-1 {
-    min-height: 100px;
-  }
-
-  .u-section-2 .u-text-1 {
-    margin-top: 0;
-    margin-left: -5px;
-  }
-
-  .u-section-2 .u-text-2 {
-    margin-left: -5px;
-    margin-right: -5px;
-  }
-
-  .u-section-2 .u-image-1 {
-    min-height: 150px;
+  .u-section-2 .u-line-1 {
+    margin-right: initial;
+    margin-left: initial;
   }
 }
 
 @media (max-width: 767px) {
-   .u-section-2 {
-    min-height: 1139px;
+  .u-section-2 .u-line-1 {
+    margin-top: 19px;
+    margin-bottom: 14px;
+    margin-right: initial;
+    margin-left: initial;
+  }
+}.u-section-3 .u-sheet-1 {
+  min-height: 634px;
+}
+
+.u-section-3 .u-text-1 {
+  margin: -7px 0 0;
+}.u-section-4 .u-sheet-1 {
+  min-height: 968px;
+}
+
+.u-section-4 .u-layout-wrap-1 {
+  margin-top: 2px;
+  margin-bottom: 13px;
+}
+
+.u-section-4 .u-image-1 {
+  min-height: 535px;
+  background-image: url("images/Jak-przyspieszyc-kompostowanie-0-1170x780.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-4 .u-container-layout-1 {
+  padding: 30px;
+}
+
+.u-section-4 .u-layout-cell-2 {
+  min-height: 535px;
+}
+
+.u-section-4 .u-container-layout-2 {
+  padding: 30px 30px 30px 0;
+}
+
+.u-section-4 .u-text-1 {
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.u-section-4 .u-image-2 {
+  min-height: 433px;
+  background-image: url("images/7de3064dff71ef8115604081632bbaab63a220ddb5de866821d0e04ccffbb661c551831225190113ddb6e533a3a1e15f9abc73a52ce6a038c58600_1280.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-4 .u-container-layout-3 {
+  padding: 30px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-4 .u-sheet-1 {
+    min-height: 1039px;
   }
 
-  .u-section-2 .u-layout-wrap-1 {
-    margin-top: -4px;
-    margin-bottom: -4px;
+  .u-section-4 .u-image-1 {
+    min-height: 441px;
   }
 
-  .u-section-2 .u-layout-cell-1 {
-    min-height: 399px;
+  .u-section-4 .u-layout-cell-2 {
+    min-height: 441px;
   }
 
-  .u-section-2 .u-container-layout-1 {
-    padding-left: 50px;
-    padding-right: 50px;
+  .u-section-4 .u-image-2 {
+    min-height: 357px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-4 .u-sheet-1 {
+    min-height: 869px;
   }
 
-  .u-section-2 .u-text-1 {
-    margin-top: 149px;
-    margin-left: 0;
+  .u-section-4 .u-image-1 {
+    min-height: 338px;
   }
 
-  .u-section-2 .u-text-2 {
-    margin-left: 0;
-    margin-right: 0;
+  .u-section-4 .u-layout-cell-2 {
+    min-height: 100px;
   }
 
-  .u-section-2 .u-image-1 {
-    min-height: 225px;
+  .u-section-4 .u-image-2 {
+    min-height: 273px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-4 .u-sheet-1 {
+    min-height: 1080px;
   }
 
-  .u-section-2 .u-container-layout-2 {
+  .u-section-4 .u-image-1 {
+    min-height: 507px;
+  }
+
+  .u-section-4 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-4 .u-container-layout-2 {
+    padding-right: 10px;
+  }
+
+  .u-section-4 .u-image-2 {
+    min-height: 459px;
+  }
+
+  .u-section-4 .u-container-layout-3 {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
 
 @media (max-width: 575px) {
-   .u-section-2 {
-    min-height: 326px;
+  .u-section-4 .u-sheet-1 {
+    min-height: 770px;
   }
 
-  .u-section-2 .u-layout-wrap-1 {
-    margin-top: 1px;
-    margin-bottom: 13px;
+  .u-section-4 .u-image-1 {
+    min-height: 319px;
   }
 
-  .u-section-2 .u-layout-cell-1 {
-    min-height: 100px;
+  .u-section-4 .u-image-2 {
+    min-height: 289px;
   }
+}.u-section-5 .u-sheet-1 {
+  min-height: 36px;
+}
 
-  .u-section-2 .u-text-1 {
-    margin-top: 0;
-  }
+.u-section-5 .u-line-1 {
+  transform-origin: right center;
+  margin: 17px 0;
+}
 
-  .u-section-2 .u-text-2 {
-    margin-right: -5px;
+@media (max-width: 1199px) {
+  .u-section-5 .u-line-1 {
+    margin-right: initial;
+    margin-left: initial;
   }
+}.u-section-6 .u-sheet-1 {
+  min-height: 159px;
+}
 
-  .u-section-2 .u-image-1 {
-    min-height: 142px;
+.u-section-6 .u-text-1 {
+  margin: 0 0 -7px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-6 .u-text-1 {
+    margin-top: -122px;
   }
+}
+
+@media (max-width: 767px) {
+  .u-section-6 .u-text-1 {
+    margin-top: -321px;
+    margin-bottom: 0;
+  }
+}.u-section-7 .u-sheet-1 {
+  min-height: 36px;
+}
+
+.u-section-7 .u-line-1 {
+  margin-top: 17px;
+  margin-bottom: 17px;
+  transform-origin: right center;
 }
