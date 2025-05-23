@@ -9,15 +9,15 @@
 }
 
 .u-section-1 .u-layout-cell-1 {
-  min-height: 834px;
+  min-height: 883px;
 }
 
 .u-section-1 .u-container-layout-1 {
-  padding: 28px 30px;
+  padding: 27px 30px;
 }
 
 .u-section-1 .u-text-1 {
-  margin: 3px 0 0;
+  margin: 1px 0 0;
 }
 
 .u-section-1 .u-text-2 {
@@ -38,10 +38,15 @@
   color: rgb(239, 206, 74) !important;
 }
 
+.u-section-1 .u-text-3 {
+  font-size: 2.5rem;
+  margin: 20px 0 0;
+}
+
 .u-section-1 .u-calendar-1 {
   --radius: 10px;
   box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.2);
-  margin-top: 31px;
+  margin-top: 20px;
   margin-bottom: -1px;
   --hours-top-spacing: 20px;
   --num-padding-vertical: 15px;
@@ -83,7 +88,7 @@
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 688px;
+    min-height: 728px;
   }
 }
 
@@ -111,5 +116,9 @@
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
     min-height: 232px;
+  }
+
+  .u-section-1 .u-text-3 {
+    font-size: 2.25rem;
   }
 }
