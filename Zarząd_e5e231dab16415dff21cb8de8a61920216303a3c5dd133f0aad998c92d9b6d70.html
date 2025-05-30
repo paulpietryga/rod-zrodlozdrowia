@@ -17,6 +17,10 @@
     
     
     
+    
+    
+    
+    
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     <script type="application/ld+json">{
 		"@context": "http://schema.org",
@@ -31,102 +35,9 @@
     <meta property="og:title" content="Strona 1">
     <meta property="og:description" content="Oficjalna strona Rodzinnego Ogrodu Działkowego „Źródło Zdrowia” we Wrocławiu. Aktualności, ogłoszenia, dokumenty i kontakt dla działkowców z ul. Kłokoczyckiej.">
     <meta property="og:type" content="website">
-  <script>
-    function gdprConfirmed() {
-        return true;
-    }
-    function dynamicLoadScript() {
-        var script = document.createElement('script');
-        script.src = 'https://www.google.com/recaptcha/api.js?render=6LeH7UYrAAAAAErpeHJEKRg3nGWl8Yp45lXcl1OY';
-        script.async = true;
-        document.body.appendChild(script);
-        script.onload = function() {
-            let event = new CustomEvent("recaptchaLoaded");
-            document.dispatchEvent(event);
-        };
-    }
-    function showRecaptchaError(error) {
-        error = error || '';
-        var formError = document.querySelector('.u-form-send-error');
-
-        if (formError) {
-            formError.innerText = 'Błąd właściciela witryny: ' + error.replace(/:[\s\S]*/, '');
-            formError.style.display = 'block';
-        }
-
-        console.error('Error in grecaptcha: ', error);
-    }
-    document.addEventListener('DOMContentLoaded', function () {
-        var confirmButton = document.querySelector('.u-cookies-consent .u-button-confirm');
-        if (confirmButton) {
-            confirmButton.onclick = dynamicLoadScript;
-        }
-    });
-    </script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function(){
-            if (!gdprConfirmed()) {
-                return;
-            }
-            dynamicLoadScript();
-        });
-    </script>
-    <script>
-        document.addEventListener("recaptchaLoaded", function() {
-            if (!gdprConfirmed()) {
-                return;
-            }
-
-            (function (grecaptcha, sitekey, actions) {
-                var recaptcha = {
-                    execute: function (action, submitFormCb) {
-                        if (typeof grecaptcha === 'undefined' || typeof grecaptcha.execute !== 'function') {
-                            showRecaptchaError('reCAPTCHA script failed to load.');
-                            return;
-                        }
-
-                        grecaptcha.execute(sitekey, {action: action}).then((token) => {
-                            if (!token) {
-                                throw new Error('Empty token received from reCAPTCHA');
-                            }
-
-                            var forms = document.getElementsByTagName('form');
-
-                            for (var i = 0; i < forms.length; i++) {
-                                var response = forms[i].querySelector('[name="recaptchaResponse"]');
-
-                                if (!response) {
-                                    response = document.createElement('input');
-                                    response.setAttribute('type', 'hidden');
-                                    response.setAttribute('name', 'recaptchaResponse');
-                                    forms[i].appendChild(response);
-                                }
-
-                                response.value = token;
-                            }
-
-                            submitFormCb();
-                        }).catch((e) => {
-                            showRecaptchaError(e.message);
-                        });
-                    },
-
-                    executeContact: function (submitFormCb) {
-                        recaptcha.execute(actions['contact'], submitFormCb);
-                    }
-                };
-
-                window.recaptchaObject = recaptcha;
-            })(
-                grecaptcha,
-                
-                '6LeH7UYrAAAAAErpeHJEKRg3nGWl8Yp45lXcl1OY',
-                {'contact': 'contact'}
-            );
-        });
-    </script>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
 <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
-  <body data-path-to-root="./" data-include-products="false" class="u-body u-xl-mode" data-lang="pl"><header class="u-align-center-sm u-align-center-xs u-clearfix u-header u-sticky u-header" id="header" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><div class="u-clearfix u-sheet u-sheet-1">
+  <body data-path-to-root="./" data-include-products="false" class="u-body u-xl-mode" data-lang="pl"><header class="u-align-center-sm u-align-center-xs u-clearfix u-header u-header" id="header" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><div class="u-clearfix u-sheet u-sheet-1">
         <a href="./" data-page-id="18955109" class="u-align-left u-image u-logo u-image-1" data-image-width="502" data-image-height="496">
           <img src="images/Logo_ogrodu-removebg-preview-removebg-preview.png" class="u-logo-image u-logo-image-1">
         </a>
@@ -187,7 +98,7 @@
                       <h1 class="u-align-center u-text u-text-default u-text-1">Dla Zarządu</h1>
                     </div>
                   </div>
-                  <div class="u-container-style u-image u-image-round u-layout-cell u-radius u-size-20 lazyload u-image-1" data-image-width="1280" data-image-height="853" data-bg="url(&quot;images/326c9361a1d9f74c9c89ac3d6b7717dabc31edbd4581adefc2fd2a77bc9b6419d5df8c068394dbe042d945c489046fbfc9946797529cf60fb92a8c_1280.jpg&quot;)">
+                  <div class="u-container-style u-image u-image-round u-layout-cell u-radius u-size-20 lazyload u-image-1" data-image-width="1536" data-image-height="1024" data-bg="url(&quot;images/ChatGPTImage30maj202522_35_02.png&quot;)">
                     <div class="u-container-layout u-container-layout-2"></div>
                   </div>
                 </div>
@@ -197,20 +108,20 @@
         </div>
       </div>
     </section>
-    <section class="u-clearfix u-section-2" id="sec-7eb1">
+    <section class="u-clearfix u-section-2" id="sec-4ebe">
       <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
         <div class="u-border-3 u-border-grey-dark-1 u-expanded-width u-line u-line-horizontal u-line-1"></div>
       </div>
     </section>
     <section class="u-clearfix u-section-3" id="block-3">
-      <div class="u-clearfix u-sheet u-sheet-1">
+      <div class="u-clearfix u-sheet u-valign-middle-xl u-valign-top-lg u-valign-top-md u-valign-top-sm u-valign-top-xs u-sheet-1">
         <div class="data-layout-selected u-clearfix u-expanded-width u-gutter-100 u-layout-wrap u-layout-wrap-1">
           <div class="u-layout" style="">
             <div class="u-layout-col" style="">
               <div class="u-size-60" style="">
                 <div class="u-layout-col" style="">
                   <div class="u-container-style u-layout-cell u-size-60 u-layout-cell-1">
-                    <div class="u-container-layout u-valign-top-lg u-valign-top-md u-valign-top-sm u-valign-top-xs u-container-layout-1">
+                    <div class="u-container-layout u-container-layout-1">
                       <ul class="u-custom-list u-text u-text-1">
                         <li>
                           <div class="u-list-icon u-list-icon-1">
@@ -225,22 +136,6 @@
                           <br>
                         </li>
                       </ul>
-                      <h1 class="u-align-center u-text u-text-2">Dyżury </h1>
-                      <div class="u-btn-round u-calendar u-expanded-width u-radius u-spacing-30 u-calendar-1" data-href="#popup-818f" data-calendar-token="eyJhbGciOiJSU0EtT0FFUCIsImVuYyI6IkEyNTZHQ00ifQ.i3-k-ILO10F4hyAOMXxv4T9mojTX4azdvjwllJk-hh3ou9a9IDs53f3GWhXc-GiBCCL7JPSyiNBoV7LUwQt8FffjHzEcn802Zpwvjv41Ha94KTQCJBzFg0WoKtkDpl3IeTyEKl8vyEEqjLVhWVkas24wdMisXOPChB7RooHzQ25HlZTFSODluqkRp_ehsx8q_z8Z7kAOxOIrw7SiPX5MrEFL5oqV_pF_WLlJFEJW789xgBO0R-sMsyXFcO7mEAufCI0ppkhifZIp4RCLe1BBGrWrSc2o1iTIhIeFAwQYTaCnbI-uK9O_ke-eY-vixs4aCBZzj1GOiUS0b2WYsUyQVA.f8p2gyZXhg3pmy6g.hCg4Uq-Bjolw1oeUX5DhAYakYWdL_UvnVrYlUhLaKWRdyWmKTD7amurLL0hOCaxtYhJOqgQ313NLmJ6KzUMUf93S3nXV.s0DQzB0rJhGaPJGFYuo3uw">
-                        <div class="u-datepicker-container" style="position: relative;">
-                          <div class="datepicker"></div>
-                        </div>
-                        <div class="u-calendar-time-container">
-                          <div class="u-calendar-time-container-inner">
-                            <div class="u-calendar-timezone u-text"></div>
-                            <ul class="u-calendar-time-list u-unstyled" style="height: 279px;"><li class="fake u-border-2 u-border-hover-palette-1-base u-border-white u-btn-round u-calendar-time-slot u-grey-5 u-hidden u-hover-palette-1-light-3 u-radius u-text-black u-calendar-time-slot-1">--:--</li></ul>
-                          </div>
-                        </div>
-                        <div class="u-calendar-success-message">Rezerwacja wizyty została pomyślnie zarezerwowana.</div>
-                        <div class="u-calendar-error-message">Wystąpił nieoczekiwany błąd.</div>
-                        <div class="u-calendar-conflict-message">Nie można zarezerwować spotkania w tym przedziale czasowym. Prosimy o zarezerwowanie innego terminu.</div>
-                        <div class="u-calendar-no-slots-message">Nie ma dostępnych przedziałów czasowych na ten dzień.</div>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -250,6 +145,22 @@
         </div>
       </div>
     </section>
+    <section class="u-clearfix u-section-4" id="sec-7eb1">
+      <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-1">
+        <div class="u-border-3 u-border-grey-dark-1 u-expanded-width u-line u-line-horizontal u-line-1"></div>
+      </div>
+    </section>
+    <section class="u-clearfix u-section-5" id="sec-0846">
+      <div class="u-clearfix u-sheet u-valign-bottom-lg u-valign-bottom-md u-valign-bottom-sm u-valign-bottom-xs u-sheet-1">
+        <h1 class="u-align-center u-text u-text-1">Kalendarz<br>
+        </h1>
+        <div class="custom-expanded u-align-center u-clearfix u-custom-html u-custom-html-1">
+          <iframe src="https://calendar.google.com/calendar/embed?src=rodzrodlozdrowia%40gmail.com&amp;ctz=Europe%2FWarsaw" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        </div>
+      </div>
+    </section>
+    
+    
     
     
     
@@ -259,139 +170,5 @@
         <p class="u-small-text u-text u-text-variant u-text-1"> © 2025 ROD Źródło Zdrowia. Wszelkie prawa zastrzeżone.</p>
       </div></footer>
     <section class="u-backlink u-clearfix u-grey-80"></section><span style="height: 64px; width: 64px; margin-left: 0px; margin-right: auto; margin-top: 0px; background-image: none; right: 20px; bottom: 20px; padding: 15px" class="u-back-to-top u-icon u-icon-circle u-opacity u-opacity-85 u-palette-1-base" data-href="#"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 551.13 551.13"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-1d98"></use></svg><svg class="u-svg-content" enable-background="new 0 0 551.13 551.13" viewBox="0 0 551.13 551.13" xmlns="http://www.w3.org/2000/svg" id="svg-1d98"><path d="m275.565 189.451 223.897 223.897h51.668l-275.565-275.565-275.565 275.565h51.668z"></path></svg></span>
-  <section class="u-align-center u-black u-clearfix u-container-align-center u-container-style u-dialog-block u-opacity u-opacity-70 u-valign-middle u-dialog-section-7" id="popup-818f">
-      <div class="u-align-center u-border-1 u-border-white u-container-align-center u-container-align-left-xl u-container-style u-dialog u-radius-5 u-shape-round u-white u-dialog-1">
-        <div class="u-container-layout u-valign-top u-container-layout-1">
-          <h2 class="u-align-left u-text u-text-1">Kto pełni dyżur</h2>
-          <p class="u-align-left u-text u-text-palette-1-base u-text-2">9:30 - 10:00 rano, piątek 8 listopada 2024 r.</p>
-          <div class="u-expanded-width u-form u-form-1">
-            <form action="https://forms.nicepagesrv.com/v2/form/process" class="u-clearfix u-form-spacing-19 u-form-vertical u-inner-form" style="padding: 0px;" source="email" name="form">
-              <div class="u-form-group u-form-name u-form-group-1">
-                <label for="name-3e72" class="u-form-control-hidden u-label">Name</label>
-                <input type="text" placeholder="Osoba 1" id="name-3e72" name="osoba1" class="u-border-grey-25 u-input u-input-rectangle u-radius u-input-1" required="">
-              </div>
-              <div class="u-form-group u-form-group-2">
-                <label for="email-3e72" class="u-form-control-hidden u-label">Email</label>
-                <input type="text" placeholder="Osoba 2" id="email-3e72" name="osba2" class="u-border-grey-25 u-input u-input-rectangle u-radius u-input-2" required="required">
-              </div>
-              <div class="u-align-left u-form-group u-form-submit u-form-group-3">
-                <a href="#" class="u-border-none u-btn u-btn-round u-btn-submit u-button-style u-palette-1-base u-radius-5 u-btn-1">Potwierdzać</a>
-                <input type="submit" value="submit" class="u-form-control-hidden">
-              </div>
-              <div class="u-form-send-message u-form-send-success">Dziękujemy! Twoja wiadomość została wysłana!</div>
-              <div class="u-form-send-error u-form-send-message">Przepraszamy, wiadomość nie mogła zostać wysłana. Popraw błędy i spróbuj ponownie.</div>
-              <input type="hidden" value="" name="recaptchaResponse">
-              <input type="hidden" name="formServices" value="a98080c1-c801-1750-0970-8cf720c0f829">
-              <input type="hidden" name="siteKey" value="6LeH7UYrAAAAAErpeHJEKRg3nGWl8Yp45lXcl1OY">
-            </form>
-          </div>
-        </div>
-        <button class="u-dialog-close-button u-icon u-text-grey-50 u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 413.348 413.348" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-1ce9"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 413.348 413.348" id="svg-1ce9"><path d="m413.348 24.354-24.354-24.354-182.32 182.32-182.32-182.32-24.354 24.354 182.32 182.32-182.32 182.32 24.354 24.354 182.32-182.32 182.32 182.32 24.354-24.354-182.32-182.32z"></path></svg></button>
-      </div>
-    </section><style>.u-dialog-section-7 .u-dialog-1 {
-  width: 683px;
-  min-height: 392px;
-  height: auto;
-  margin: 60px auto;
-}
-
-.u-dialog-section-7 .u-container-layout-1 {
-  padding: 40px;
-}
-
-.u-dialog-section-7 .u-text-1 {
-  font-size: 2.25rem;
-  width: auto;
-  margin: 0;
-}
-
-.u-dialog-section-7 .u-text-2 {
-  width: auto;
-  font-weight: 700;
-  margin: 20px 0 0;
-}
-
-.u-dialog-section-7 .u-form-1 {
-  height: 204px;
-  width: 601px;
-  margin: 32px 0 0;
-}
-
-.u-dialog-section-7 .u-form-group-1 {
-  width: 100%;
-}
-
-.u-dialog-section-7 .u-input-1 {
-  --radius: 5px;
-}
-
-.u-dialog-section-7 .u-form-group-2 {
-  width: 100%;
-}
-
-.u-dialog-section-7 .u-input-2 {
-  --radius: 5px;
-}
-
-.u-dialog-section-7 .u-form-group-3 {
-  width: 100%;
-}
-
-.u-dialog-section-7 .u-btn-1 {
-  background-image: none;
-  border-style: none;
-  padding-left: 50px;
-  padding-right: 50px;
-  font-size: 1.125rem;
-}
-
-.u-dialog-section-7 .u-icon-1 {
-  width: 15px;
-  height: 15px;
-  left: auto;
-  top: 16px;
-  position: absolute;
-  right: 18px;
-}
-
-@media (max-width: 1199px) {
-  .u-dialog-section-7 .u-dialog-1 {
-    width: 683px;
-  }
-
-  .u-dialog-section-7 .u-form-1 {
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
-  }
-}
-
-@media (max-width: 991px) {
-  .u-dialog-section-7 .u-container-layout-1 {
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 30px;
-  }
-}
-
-@media (max-width: 767px) {
-  .u-dialog-section-7 .u-dialog-1 {
-    width: 540px;
-  }
-}
-
-@media (max-width: 575px) {
-  .u-dialog-section-7 .u-dialog-1 {
-    width: 340px;
-  }
-
-  .u-dialog-section-7 .u-container-layout-1 {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .u-dialog-section-7 .u-text-1 {
-    font-size: 1.875rem;
-  }
-}</style>
+  
 </body></html>
