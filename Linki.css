@@ -142,14 +142,6 @@
   background-image: none;
   border-style: solid;
   font-size: 1.25rem;
-  margin: 20px auto 0;
-  padding: 0;
-}
-
-.u-section-3 .u-btn-5 {
-  background-image: none;
-  border-style: solid;
-  font-size: 1.25rem;
-  margin: 20px auto;
+  margin: 20px auto 60px;
   padding: 0;
 }
