@@ -46163,6 +46163,10 @@ a.u-link.u-text-hover-color-var:hover {
   font-size: 1rem;
 }
 @media (max-width: 1199px) {
+  .u-header .u-sheet-1 {
+    min-height: 97px;
+  }
+
   .u-header .u-social-icons-1 {
     height: 43px;
     width: 43px;
@@ -46177,6 +46181,10 @@ a.u-link.u-text-hover-color-var:hover {
   }
 }
 @media (max-width: 991px) {
+  .u-header .u-sheet-1 {
+    min-height: 100px;
+  }
+
   .u-header .u-image-1 {
     margin-top: 19px;
   }
@@ -46193,6 +46201,10 @@ a.u-link.u-text-hover-color-var:hover {
   }
 }
 @media (max-width: 767px) {
+  .u-header .u-sheet-1 {
+    min-height: 90px;
+  }
+
   .u-header .u-image-1 {
     margin-top: 6px;
   }
